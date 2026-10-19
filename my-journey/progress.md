@@ -10,6 +10,8 @@
 ## 01 · Linux Fundamentals
 
 - [ ] 01 - The Terminal
+  <img width="1067" height="557" alt="image" src="https://github.com/user-attachments/assets/38b46f53-d753-4c37-8e8e-f2c2afb65375" />
+
 - [ ] 02 - The Shell
 - [ ] 03 - Linux Commands
 - [ ] 04 - The Linux File System
