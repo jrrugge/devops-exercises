@@ -41,6 +41,33 @@ EOF
 ll is a shortcut for ls -lah. gs, k, and dc are the team shortcuts. ZSH_THEME picks a theme. plugins=(git) turns on the git plugin.
 
 - [ ] 03 - Linux Commands
+
+<img width="1117" height="330" alt="image" src="https://github.com/user-attachments/assets/e7118ca9-def6-4e4c-994f-4153b746e0be" />
+
+history
+1. find all the files flag
+ls -a (--all)
+ls -a ~/sandbox/files > ~/sandbox/hidden.txt
+
+1.2 date
+date +%F > ~/sandbox/today.txt
+
+2 search man page descriptions by keyword
+apropos "space usage" > ~/sandbox/apropos-space.txt
+
+locate the program
+which du > ~/sandbox/where-is-du.txt
+
+man ls
+ls -l ~/sandbox/files > ~/sandbox/long.txt #show permissions, owner, sixe per file
+
+append the toolkit to ~/.zhrc
+cat >> ~/.zhrc <<'EOF'
+alias gl='git log --oneline'
+alias dps='docker ps'
+alias kgp='kubectl get pods'
+EOF
+
 - [ ] 04 - The Linux File System
 - [ ] 05 - Working with Files
 - [ ] 06 - Working with Directories
