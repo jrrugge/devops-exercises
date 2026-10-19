@@ -17,6 +17,29 @@
  
 <img width="771" height="352" alt="image" src="https://github.com/user-attachments/assets/783881e0-8656-4bce-84f7-9a925ae22cd8" />
 
+Commands: 
+1.1. Save the list of installed shells:
+cat /etc/shells
+
+cat /etc/shells > ~/sandbox/shells.txt
+That file is /etc/shells. The line above copies it into your sandbox.
+
+2.1. Make zsh the shell you get every time you log in:
+sudo chsh -s "$(which zsh)" $USER
+
+Put your settings in ~/.zshrc. Covers the alias, the theme, the team aliases, and the git plugin:
+
+cat > ~/.zshrc << 'EOF'
+alias ll='ls -lah'
+alias gs='git status'
+alias k='kubectl get pods'
+alias dc='docker compose'
+ZSH_THEME="agnoster"
+plugins=(git)
+EOF
+
+ll is a shortcut for ls -lah. gs, k, and dc are the team shortcuts. ZSH_THEME picks a theme. plugins=(git) turns on the git plugin.
+
 - [ ] 03 - Linux Commands
 - [ ] 04 - The Linux File System
 - [ ] 05 - Working with Files
