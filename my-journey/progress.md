@@ -1,7 +1,7 @@
 # My DevOps Journey
 
 - **Started:** _YYYY-MM-DD_
-- **GitHub:** @_your-username_
+- **GitHub:** @jrrugge
 
 > Log what you learn as you go. Commit + push to your fork after each session.
 
