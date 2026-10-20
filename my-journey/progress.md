@@ -88,9 +88,15 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 <img width="852" height="445" alt="image" src="https://github.com/user-attachments/assets/1db2129d-a4b6-4f08-ac42-5fecc182539d" />
 
 
-
 - [ ] 07 - Users & Groups
+
+<img width="812" height="395" alt="image" src="https://github.com/user-attachments/assets/ee5dc204-0a14-4207-a9ca-332537110477" />
+
+
 - [ ] 08 - File Permissions
+
+<img width="826" height="446" alt="image" src="https://github.com/user-attachments/assets/6c85cf1d-c6c4-463f-bea2-0008ba4d5a9f" />
+
 
 ### Notes & takeaways
 -
@@ -99,6 +105,20 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 ```bash
 (Working with directories) Folder build: mkdir -p release/v2/{bin,config,logs} && touch release/v2/VERSION
 (Working with directories) Archiving: - zip -r ~/sandbox/release-v2.zip release/
+sudo useradd -m [name]
+passwd [name]
+userdel rf [name]
+sudo adduser [name] sudo (add user to sudoers)
+sudo passwd [name]
+sudo usermod -aG ops [name] (add to group)
+or sudo adduser [name] ops
+sudo gpasswd -d [name] ops (remove user from group)
+sudo group add [group name]
+sudo groupdel legacy  (delete an old group)
+groups (list groups)
+less -X /etc/group
+id, id [name]
+su i, su [name]
 ```
 
 ### Gotchas / things that confused me
