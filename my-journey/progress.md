@@ -73,7 +73,20 @@ EOF
 <img width="782" height="275" alt="image" src="https://github.com/user-attachments/assets/ae7d1e54-f222-4f2f-9f78-c2f8f530cc32" />
   
 - [ ] 05 - Working with Files
+
+<img width="790" height="367" alt="image" src="https://github.com/user-attachments/assets/4a11b0c4-fe41-4c4a-833e-0140c3f20e78" />
+
+**>Below 2 issues i think are a possible issue with the grader**
+lab might be broken as the commands used here clearly work when i manually inspect
+touch part1.txt part2.txt
+cat ~/sandbox/part1.txt ~/sandbox/part2 > ~/sandbox/full.txt
+
+rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, went further to create summy tmp files with the same setup and grader still wont pass this 
+   
 - [ ] 06 - Working with Directories
+
+
+
 - [ ] 07 - Users & Groups
 - [ ] 08 - File Permissions
 
