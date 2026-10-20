@@ -95,7 +95,7 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 
 ### Commands I want to remember
 ```bash
-
+mkdir -p release/v2/{bin,config,logs} && touch release/v2/VERSION
 ```
 
 ### Gotchas / things that confused me
