@@ -85,6 +85,8 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
    
 - [ ] 06 - Working with Directories
 
+<img width="852" height="445" alt="image" src="https://github.com/user-attachments/assets/1db2129d-a4b6-4f08-ac42-5fecc182539d" />
+
 
 
 - [ ] 07 - Users & Groups
@@ -95,7 +97,8 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 
 ### Commands I want to remember
 ```bash
-mkdir -p release/v2/{bin,config,logs} && touch release/v2/VERSION
+(Working with directories) Folder build: mkdir -p release/v2/{bin,config,logs} && touch release/v2/VERSION
+(Working with directories) Archiving: - zip -r ~/sandbox/release-v2.zip release/
 ```
 
 ### Gotchas / things that confused me
