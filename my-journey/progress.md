@@ -103,6 +103,11 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 <img width="807" height="275" alt="image" src="https://github.com/user-attachments/assets/c8a81310-abdd-4cb0-950f-2678381f2082" />
 
 
+## 03 · Linux for Professionals
+
+
+
+
 ### Notes & takeaways
 -
 
