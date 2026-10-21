@@ -109,7 +109,10 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 
 <img width="1176" height="505" alt="image" src="https://github.com/user-attachments/assets/edcc240e-3358-4f17-a0e2-373a151cd550" />
 
+
 02-environment-variables
+
+<img width="1161" height="331" alt="image" src="https://github.com/user-attachments/assets/6aa11bd6-6a05-43a0-8ac1-e519b7778461" />
 
 
 03-system-admin
