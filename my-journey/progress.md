@@ -105,7 +105,20 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 
 ## 03 · Linux for Professionals
 
+01-redirection-and-pipes
 
+<img width="1176" height="505" alt="image" src="https://github.com/user-attachments/assets/edcc240e-3358-4f17-a0e2-373a151cd550" />
+
+02-environment-variables
+
+
+03-system-admin
+
+
+04-networking
+
+
+05-ssh
 
 
 ### Notes & takeaways
