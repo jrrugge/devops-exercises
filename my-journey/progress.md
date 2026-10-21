@@ -117,8 +117,11 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 
 03-system-admin
 
+<img width="1192" height="346" alt="image" src="https://github.com/user-attachments/assets/975322dc-24df-400f-b8f8-d525c5b51440" />
+
 
 04-networking
+
 
 
 05-ssh
