@@ -145,6 +145,17 @@ groups (list groups)
 less -X /etc/group
 id, id [name]
 su i, su [name]
+
+(executble and runs a command 'greet')
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+sed -i '/export PATH="\$HOME\/bin"/d' ~/.bashrc
+sed -i '/export PATH="\$HOME\/bin:\$PATH"/d' ~/.bashrc
+echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
+sudo vi ~/.bashrc
+source ~/.bashrc
+mkdir -p ~/bin
+echo -e '#!/bin/bash\necho "ready to deploy"' > ~/bin/greet
+chmod +x ~/bin/greet
 ```
 
 ### Gotchas / things that confused me
