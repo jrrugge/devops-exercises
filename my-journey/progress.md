@@ -122,9 +122,12 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 
 04-networking
 
+<img width="982" height="322" alt="image" src="https://github.com/user-attachments/assets/c34635ac-7b86-444a-b239-2390815a4161" />
 
 
 05-ssh
+
+<img width="1055" height="377" alt="image" src="https://github.com/user-attachments/assets/e913edd8-bbe6-4407-88bc-c6b91f100bba" />
 
 
 ### Notes & takeaways
@@ -159,6 +162,28 @@ source ~/.bashrc
 mkdir -p ~/bin
 echo -e '#!/bin/bash\necho "ready to deploy"' > ~/bin/greet
 chmod +x ~/bin/greet
+
+~/.ssh/config setup commands
+# Ensure the .ssh folder has secure permissions
+chmod 700 ~/.ssh
+
+# Write the exact configuration using the precise hint keywords
+cat << 'EOF' > ~/.ssh/config
+Host myserver
+    HostName 1.2.3.4
+    User student
+    IdentityFile ~/.ssh/id_rsa
+
+Host prod
+    HostName 5.6.7.8
+    User ubuntu
+    Port 22
+    IdentityFile ~/.ssh/prod_key.pem
+EOF
+
+# Set owner read/write permissions for Tier 2
+chmod 600 ~/.ssh/config
+student@2950e2c71bab:~/sandbox$ exit
 ```
 
 ### Gotchas / things that confused me
