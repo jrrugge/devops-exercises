@@ -129,6 +129,26 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 
 <img width="1055" height="377" alt="image" src="https://github.com/user-attachments/assets/e913edd8-bbe6-4407-88bc-c6b91f100bba" />
 
+## 04 Shell Scripting
+
+01 - bash basics
+
+<img width="1022" height="331" alt="image" src="https://github.com/user-attachments/assets/1cedaaf5-a9f7-4354-9147-604fe2e8d4e8" />
+
+02 - conditions-and-loops
+
+
+
+03-functions
+
+
+04-error-handling
+
+
+05-files-and-automation
+
+
+
 
 ### Notes & takeaways
 -
