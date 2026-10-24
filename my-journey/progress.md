@@ -139,6 +139,7 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 
 02 - conditions-and-loops
 
+<img width="1040" height="267" alt="image" src="https://github.com/user-attachments/assets/e627d895-9559-4051-8040-738806ceef8c" />
 
 
 03-functions
