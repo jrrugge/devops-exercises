@@ -144,6 +144,8 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 
 03-functions
 
+<img width="1012" height="320" alt="image" src="https://github.com/user-attachments/assets/c62b6cd0-1ef4-44d5-a9c0-d16727f161cd" />
+
 
 04-error-handling
 
