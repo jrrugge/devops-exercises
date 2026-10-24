@@ -154,6 +154,7 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 
 05-files-and-automation
 
+<img width="1021" height="307" alt="image" src="https://github.com/user-attachments/assets/37f69b0a-a3f9-4074-b2a2-be7fcb86f00e" />
 
 
 
