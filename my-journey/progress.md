@@ -164,6 +164,56 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 
 <img width="965" height="275" alt="image" src="https://github.com/user-attachments/assets/ad8c4936-68c6-4f71-8a25-479a4e71368d" />
 
+02 - Tracking changes
+
+<img width="992" height="270" alt="image" src="https://github.com/user-attachments/assets/67d38c2c-0712-4953-8526-b578901d6635" />
+
+
+03 - Remotes
+
+<img width="940" height="311" alt="image" src="https://github.com/user-attachments/assets/35b06c12-9189-4e03-929c-f23b29153ed8" />
+
+
+04 - Capstone
+
+
+<img width="945" height="301" alt="image" src="https://github.com/user-attachments/assets/bd3e6234-3fa1-4dc1-a110-1abc1ddbc6a2" />
+
+
+
+## 06 Docker
+
+
+01 - Containers
+
+
+02 - Images
+
+
+03 - Volumes
+
+
+04 - Building Images
+
+
+05 - Debugging
+
+
+06 - Networking and compose
+
+
+07 - Capstone
+
+
+08 - Capstone microservices
+
+
+09 - Capstone Smart Lead
+
+
+
+
+
 
 ### Notes & takeaways
 -
