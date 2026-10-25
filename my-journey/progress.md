@@ -158,6 +158,13 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 
 
 
+## 05 Git-Github Fundamentals
+
+01 - First repo
+
+<img width="965" height="275" alt="image" src="https://github.com/user-attachments/assets/ad8c4936-68c6-4f71-8a25-479a4e71368d" />
+
+
 ### Notes & takeaways
 -
 
