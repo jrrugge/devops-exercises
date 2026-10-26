@@ -186,8 +186,11 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 
 01 - Containers
 
+<img width="1065" height="350" alt="image" src="https://github.com/user-attachments/assets/e9f85fbb-bd78-4837-97d6-8d6a219b06ae" />
+
 
 02 - Images
+
 
 
 03 - Volumes
