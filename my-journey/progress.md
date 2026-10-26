@@ -201,6 +201,8 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 
 04 - Building Images
 
+<img width="1032" height="376" alt="image" src="https://github.com/user-attachments/assets/82e1d3f2-c221-40ba-bb3f-489c33a2b887" />
+
 
 05 - Debugging
 
