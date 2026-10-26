@@ -196,6 +196,8 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 
 03 - Volumes
 
+<img width="1021" height="277" alt="image" src="https://github.com/user-attachments/assets/8872f07d-915f-4ba8-828d-1a5d9b613ba7" />
+
 
 04 - Building Images
 
