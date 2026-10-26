@@ -206,6 +206,9 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 
 05 - Debugging
 
+<img width="837" height="282" alt="image" src="https://github.com/user-attachments/assets/f352bce4-dc2c-4f0b-9019-65b0da1ff1f2" />
+
+
 
 06 - Networking and compose
 
