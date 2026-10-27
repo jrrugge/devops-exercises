@@ -105,112 +105,112 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 
 ## 03 · Linux for Professionals
 
-01-redirection-and-pipes
+# 01-redirection-and-pipes
 
 <img width="1176" height="505" alt="image" src="https://github.com/user-attachments/assets/edcc240e-3358-4f17-a0e2-373a151cd550" />
 
 
-02-environment-variables
+# 02-environment-variables
 
 <img width="1161" height="331" alt="image" src="https://github.com/user-attachments/assets/6aa11bd6-6a05-43a0-8ac1-e519b7778461" />
 
 
-03-system-admin
+# 03-system-admin
 
 <img width="1192" height="346" alt="image" src="https://github.com/user-attachments/assets/975322dc-24df-400f-b8f8-d525c5b51440" />
 
 
-04-networking
+# 04-networking
 
 <img width="982" height="322" alt="image" src="https://github.com/user-attachments/assets/c34635ac-7b86-444a-b239-2390815a4161" />
 
 
-05-ssh
+# 05-ssh
 
 <img width="1055" height="377" alt="image" src="https://github.com/user-attachments/assets/e913edd8-bbe6-4407-88bc-c6b91f100bba" />
 
 ## 04 Shell Scripting
 
-01 - bash basics
+# 01 - bash basics
 
 <img width="1022" height="331" alt="image" src="https://github.com/user-attachments/assets/1cedaaf5-a9f7-4354-9147-604fe2e8d4e8" />
 
 
 
-02 - conditions-and-loops
+# 02 - conditions-and-loops
 
 <img width="1040" height="267" alt="image" src="https://github.com/user-attachments/assets/e627d895-9559-4051-8040-738806ceef8c" />
 
 
-03-functions
+# 03-functions
 
 <img width="1012" height="320" alt="image" src="https://github.com/user-attachments/assets/c62b6cd0-1ef4-44d5-a9c0-d16727f161cd" />
 
 
-04-error-handling
+# 04-error-handling
 
 <img width="982" height="290" alt="image" src="https://github.com/user-attachments/assets/2675a1f1-5626-48cb-bb1d-0fc6a621679c" />
 
 
-05-files-and-automation
+# 05-files-and-automation
 
 <img width="1021" height="307" alt="image" src="https://github.com/user-attachments/assets/37f69b0a-a3f9-4074-b2a2-be7fcb86f00e" />
 
 
 
-## 05 Git-Github Fundamentals
+### 05 Git-Github Fundamentals
 
-01 - First repo
+## 01 - First repo
 
 <img width="965" height="275" alt="image" src="https://github.com/user-attachments/assets/ad8c4936-68c6-4f71-8a25-479a4e71368d" />
 
-02 - Tracking changes
+## 02 - Tracking changes
 
 <img width="992" height="270" alt="image" src="https://github.com/user-attachments/assets/67d38c2c-0712-4953-8526-b578901d6635" />
 
 
-03 - Remotes
+## 03 - Remotes
 
 <img width="940" height="311" alt="image" src="https://github.com/user-attachments/assets/35b06c12-9189-4e03-929c-f23b29153ed8" />
 
 
-04 - Capstone
+## 04 - Capstone
 
 
 <img width="945" height="301" alt="image" src="https://github.com/user-attachments/assets/bd3e6234-3fa1-4dc1-a110-1abc1ddbc6a2" />
 
 
 
-## 06 Docker
+### 06 Docker
 
 
-01 - Containers
+## 01 - Containers
 
 <img width="1065" height="350" alt="image" src="https://github.com/user-attachments/assets/e9f85fbb-bd78-4837-97d6-8d6a219b06ae" />
 
 
-02 - Images
+## 02 - Images
 
 <img width="927" height="237" alt="image" src="https://github.com/user-attachments/assets/41d7cc43-143a-4d2b-903c-1dd405ee8727" />
 
 
-03 - Volumes
+## 03 - Volumes
 
 <img width="1021" height="277" alt="image" src="https://github.com/user-attachments/assets/8872f07d-915f-4ba8-828d-1a5d9b613ba7" />
 
 
-04 - Building Images
+## 04 - Building Images
 
 <img width="1032" height="376" alt="image" src="https://github.com/user-attachments/assets/82e1d3f2-c221-40ba-bb3f-489c33a2b887" />
 
 
-05 - Debugging
+## 05 - Debugging
 
 <img width="837" height="282" alt="image" src="https://github.com/user-attachments/assets/f352bce4-dc2c-4f0b-9019-65b0da1ff1f2" />
 
 
 
-06 - Networking and compose
+## 06 - Networking and compose
 
 <img width="835" height="267" alt="Screenshot 2026-10-26 225120" src="https://github.com/user-attachments/assets/b5401531-2e55-4393-bdf0-3c25ef42e541" />
 
@@ -220,7 +220,7 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 
 
 
-07 - Capstone: Full-Stack App on Docker
+## 07 - Capstone: Full-Stack App on Docker
 
 Pulls together Sections 6, 10 & 11: building images, container networking, and Docker Compose - the way a real service is actually shipped.
 
@@ -234,24 +234,53 @@ The UI is served by nginx and proxies API calls to the backend. The backend read
 <img width="1005" height="370" alt="image" src="https://github.com/user-attachments/assets/ac2b3b18-0a4f-4ebe-aefc-ed600ee92105" />
 
 
-08 - Capstone microservices
-The advanced capstone. Everything from the course, on a real microservices architecture: multiple services, a database per service, service-to-service calls, and one UI - all orchestrated with Docker Compose.
 
-                   ┌─→ users-service  ─→ users-db   (Postgres)
-   browser ─→ web ─┤          ▲
-                   └─→ orders-service ─→ orders-db  (Postgres)
-                              (calls users-service to resolve buyer names)
+## 08 - Capstone microservices
+
+The advanced capstone. Everything from the course, on a real microservices architecture: multiple services, a database per service, service-to-service calls, and one UI - all orchestrated with Docker Compose.
 
 <img width="1192" height="387" alt="image" src="https://github.com/user-attachments/assets/9128db73-759e-499f-8c75-cd1acc25ab5e" />
 
-Note: running a database in a raw container in production is a massive risk. Instead of managing postgres in docker, production microservices offload this to cloud providers like
+               ┌───────────────┐
+               │   Web (UI)    │
+               │  [Port 8080]  │
+               └───────┬───────┘
+                       │
+       ┌───────────────┴───────────────┐
+       ▼                               ▼
+┌───────────────┐              ┌───────────────┐
+│ users-service │◄─────────────┤orders-service │
+│  (Port 5000)  │  HTTP Req    │               │
+└───────┬───────┘              └───────┬───────┘
+        │                              │
+        ▼                              ▼
+┌───────────────┐              ┌───────────────┐
+│   users-db    │              │   orders-db   │
+│ (PostgreSQL)  │              │ (PostgreSQL)  │
+└───────────────┘              └───────────────┘
+
+
+# Note: running a database in a raw container in production is a massive risk. Instead of managing postgres in docker, production microservices offload this to cloud providers like
 AWS RDS, Google Cloud SQL, Azure SQL and configured in a high available, multi-az setup. Where the primary database handles 100% or reads and writes. A standby database "hot backup" sitting in a completely separate physical data centre (Availability Zone). 
 Data is copied here instantly using synchronous replication.
 Automatic Failover: If the data centre housing Zone A loses power or suffers a networking hardware failure, the cloud provider automatically switches your orders-service connection to the Standby DB in Zone B. This swap takes seconds and requires zero code changes.
 At times the standy may be used for reads to improve user experience.
 
+               ┌────────────────────────┐
+               │    orders-service      │
+               └───────────┬────────────┘
+                           │
+             ┌─────────────┴─────────────┐ (Automatic Failover)
+             ▼                           ▼
+    ┌─────────────────┐         ┌─────────────────┐
+    │ Primary DB      │         │ Standby DB      │
+    │ (Availability   │────────►│ (Availability   │
+    │  Zone A - Read/ │ Synchronous│  Zone B - Hot   │
+    │  Write)         │ Replication│  Backup)        │
+    └─────────────────┘         └─────────────────┘
 
-09 - Capstone Smart Lead
+
+## 09 - Capstone Smart Lead
 
 
 
