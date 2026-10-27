@@ -235,6 +235,20 @@ The UI is served by nginx and proxies API calls to the backend. The backend read
 
 
 08 - Capstone microservices
+The advanced capstone. Everything from the course, on a real microservices architecture: multiple services, a database per service, service-to-service calls, and one UI - all orchestrated with Docker Compose.
+
+                   ┌─→ users-service  ─→ users-db   (Postgres)
+   browser ─→ web ─┤          ▲
+                   └─→ orders-service ─→ orders-db  (Postgres)
+                              (calls users-service to resolve buyer names)
+
+<img width="1192" height="387" alt="image" src="https://github.com/user-attachments/assets/9128db73-759e-499f-8c75-cd1acc25ab5e" />
+
+Note: running a database in a raw container in production is a massive risk. Instead of managing postgres in docker, production microservices offload this to cloud providers like
+AWS RDS, Google Cloud SQL, Azure SQL and configured in a high available, multi-az setup. Where the primary database handles 100% or reads and writes. A standby database "hot backup" sitting in a completely separate physical data centre (Availability Zone). 
+Data is copied here instantly using synchronous replication.
+Automatic Failover: If the data centre housing Zone A loses power or suffers a networking hardware failure, the cloud provider automatically switches your orders-service connection to the Standby DB in Zone B. This swap takes seconds and requires zero code changes.
+At times the standy may be used for reads to improve user experience.
 
 
 09 - Capstone Smart Lead
