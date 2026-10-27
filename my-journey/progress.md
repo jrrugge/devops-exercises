@@ -242,23 +242,10 @@ The advanced capstone. Everything from the course, on a real microservices archi
 <img width="1192" height="387" alt="image" src="https://github.com/user-attachments/assets/9128db73-759e-499f-8c75-cd1acc25ab5e" />
 
 
-                ┌───────────────┐
-               │   Web (UI)    │
-               │  [Port 8080]  │
-               └───────┬───────┘
-                       │
-       ┌───────────────┴───────────────┐
-       ▼                               ▼
-┌───────────────┐              ┌───────────────┐
-│ users-service │◄─────────────┤orders-service │
-│  (Port 5000)  │  HTTP Req    │               │
-└───────┬───────┘              └───────┬───────┘
-        │                              │
-        ▼                              ▼
-┌───────────────┐              ┌───────────────┐
-│   users-db    │              │   orders-db   │
-│ (PostgreSQL)  │              │ (PostgreSQL)  │
-└───────────────┘              └───────────────┘
+Architecture diagram
+
+<img width="482" height="246" alt="image" src="https://github.com/user-attachments/assets/80916dc7-6bd0-44e5-b01f-c3ab0384ee18" />
+            
 
 
 
