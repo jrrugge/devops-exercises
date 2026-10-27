@@ -219,7 +219,15 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 <img width="835" height="267" alt="Screenshot 2026-10-26 225120" src="https://github.com/user-attachments/assets/91a8859c-38ba-4b15-b7ce-ef2f5ccc10cc" />
 
 
-07 - Capstone
+07 - Capstone: Full-Stack App on Docker
+Pulls together Sections 6, 10 & 11: building images, container networking, and Docker Compose - the way a real service is actually shipped.
+
+This is the payoff. Stand up a real three-tier stack:
+
+  browser ->  web (nginx UI)  ->  api (Python backend)  ->  db (Postgres)
+                 :8080              service name "api"        named volume
+
+The UI is served by nginx and proxies API calls to the backend. The backend reads and writes a Postgres table. The database keeps its data in a named volume so it survives restarts. You will containerize the backend and wire all three together with Docker Compose - exactly the shape of most production apps.
 
 <img width="1005" height="370" alt="image" src="https://github.com/user-attachments/assets/ac2b3b18-0a4f-4ebe-aefc-ed600ee92105" />
 
