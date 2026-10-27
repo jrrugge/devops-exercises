@@ -214,6 +214,10 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 
 <img width="835" height="267" alt="Screenshot 2026-10-26 225120" src="https://github.com/user-attachments/assets/b5401531-2e55-4393-bdf0-3c25ef42e541" />
 
+<img width="1047" height="175" alt="Screenshot 2026-10-26 225248" src="https://github.com/user-attachments/assets/e5516171-d910-4bb3-8434-769ea509a3d1" />
+
+<img width="835" height="267" alt="Screenshot 2026-10-26 225120" src="https://github.com/user-attachments/assets/91a8859c-38ba-4b15-b7ce-ef2f5ccc10cc" />
+
 
 07 - Capstone
 
