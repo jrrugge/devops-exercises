@@ -213,8 +213,10 @@ rm ~/sandbox/dump/*.tmp ~/sandbox/dump/core.dump  - these files didnt exist, wen
 06 - Networking and compose
 
 
+
 07 - Capstone
 
+<img width="1005" height="370" alt="image" src="https://github.com/user-attachments/assets/ac2b3b18-0a4f-4ebe-aefc-ed600ee92105" />
 
 08 - Capstone microservices
 
