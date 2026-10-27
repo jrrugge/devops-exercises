@@ -243,8 +243,6 @@ The advanced capstone. Everything from the course, on a real microservices archi
 
 
 
-Architecture diagram
-
 <img width="482" height="246" alt="image" src="https://github.com/user-attachments/assets/80916dc7-6bd0-44e5-b01f-c3ab0384ee18" />
             
 
