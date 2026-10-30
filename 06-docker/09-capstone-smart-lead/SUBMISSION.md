@@ -112,14 +112,17 @@ After running docker compose up -d to rebuild the stack, a final curl http://loc
 Answer the questions from the capstone README:
 
 1. Which `application.properties` values did you override, and why those exactly?
-2. How did you guarantee the app does not start before the database and queue are ready,
-   and how is that different from a plain `depends_on`?
-3. Where does the database data live, and how did you prove it survives a restart?
-4. How would you switch from the AI stub to a real HuggingFace key without changing the
-   image or committing a secret?
-5. What did you do to keep the final image small and safe, and what would you improve
+SPRING_DATASOURCE_URL & SPRING_CLOUD_AWS_SQS_ENDPOINT: Redirected away from localhost to point directly to our container service hostnames (db and localstack) so the containers could communicate across the docker internal bridge network mesh, enabling the app to run anywhere docker is installed.
+AWS_QUEQUE_URL: Overridden exactly in the original file to safely route spring SQS listeners.
+ENABLE_FAKE_HF: Switched to true to activate the offline mock analyzer stub, ensuring the platform works immediately for peer review purposes without external API keys.
+3. How did you guarantee the app does not start before the database and queue are ready,
+   and how is that different from a plain `depends_on`? see 4. health checks and dependency routing
+4. Where does the database data live, and how did you prove it survives a restart? see 8. persistence above
+5. How would you switch from the AI stub to a real HuggingFace key without changing the
+   image or committing a secret? see 7 above.
+6. What did you do to keep the final image small and safe, and what would you improve
    with more time?
-
+With more time i would set up an Nginx reverse proxy container layer to safely handle upstream SSL/TLS certificate termination.
 ## Known limitations / what I would do next
 
 -
